@@ -2,7 +2,7 @@
 Tinder Bot: Automate your likes and dislikes. Increase match level!
 
 ## Description
-This bot will help you automate giving likes and dislikes. The bot will also likely increase your matcha amount. It gives like/dislike depending on the chance given in the config in percent on like. You can set how much you want from 0 to 100 percent. It works randomly, the bot does not rate photos. That program can save log with **Instagram** and **Snapchat** nicks which those are downloaded from Tinder user description.
+This bot will help you automate giving likes and dislikes. The bot will also likely increase your match amount. It gives like/dislike depending on the chance given in the config in percent on like. You can set how much you want from 0 to 100 percent. It works randomly, the bot does not rate photos. This program can save log with **Instagram** and **Snapchat** nicks which are downloaded from Tinder user description.
 
 ## Installation
 1. Install Firefox. Link: https://www.mozilla.org
@@ -41,7 +41,7 @@ In your `config.json` file have to change following things:
 5. To set wait time between give next like or dislike you have to change `max_wait_time_between_action_in_sec` for maximal time delay and 
 `min_wait_time_between_action_in_sec` for minimal time delay. Default `max_wait_time_between_action_in_sec` is 10 and `min_wait_time_between_action_in_sec` is 4.
 6. Only if you log in through Google. This option `amount_of_login_attempts` sets the number of attempts after which if you don't log in It will error occurs. Default is 15.
-6. This option `amount_of_avoid_errors` sets the number of attempts that after program will show error message and exit. Default is 5.
+6. This option `amount_of_avoid_errors` sets the number of attempts after which the program will show error message and exit. Default is 5.
 7. If you want to save Instagram nick from description set `allow_to_save_ig` to true. Default is true.
 8. Choose path to your file with Instagram nicknames so change `ig_file_path`. Default is "instagram.txt".
 9. If you want to save Snapchat nick from description set `allow_to_save_snap` to True. Default is true.
